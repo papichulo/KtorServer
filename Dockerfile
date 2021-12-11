@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM openjdk:17-ea-22-oraclelinux8
 
 ENV APPLICATION_USER ktor
 RUN adduser -D -g '' $APPLICATION_USER
